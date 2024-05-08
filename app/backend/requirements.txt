@@ -6,7 +6,7 @@
 #
 aiofiles==23.2.1
     # via quart
-aiohttp==3.9.3
+aiohttp==3.9.4
     # via
     #   -r requirements.in
     #   microsoft-kiota-authentication-azure
@@ -92,7 +92,7 @@ deprecated==1.2.14
     # via opentelemetry-api
 distro==1.9.0
     # via openai
-ecdsa==0.18.0
+ecdsa==0.19.0
     # via python-jose
 fixedint==0.1.6
     # via azure-monitor-opentelemetry-exporter
@@ -392,7 +392,7 @@ tiktoken==0.6.0
     # via -r requirements.in
 time-machine==2.14.1
     # via pendulum
-tqdm==4.66.2
+tqdm==4.66.3
     # via openai
 types-beautifulsoup4==4.12.0.20240229
     # via -r requirements.in
